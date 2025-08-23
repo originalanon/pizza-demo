@@ -1,0 +1,11 @@
+{
+    "requestingUsername": "",
+    "newUsername": "",
+    "stages":{
+        "addToTeam": 10,
+        "jiraCreation" : 10,
+        "azureSub" : 10,
+        "teamDistro" : 10,
+        "misc" : 10
+    }
+}

@@ -1,0 +1,22 @@
+{
+  "name": "pizza-demo",
+  "version": "1.0.0",
+  "description": "Pizza tracker demo for GDIT",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/originalanon/pizza-demo.git"
+  },
+  "author": "Lindsay B.",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/originalanon/pizza-demo/issues"
+  },
+  "homepage": "https://github.com/originalanon/pizza-demo#readme",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
