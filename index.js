@@ -6,7 +6,11 @@ app.get('/', (req, res) => {
   res.send('Hello World!')
 })
 
-app.post('/addUser', (req, res) => {
+function randomInterval(min, max) {
+  return Math.floor(Math.random() * (max - min + 1) + min);
+}
+
+app.post('/addUserToTeam', (req, res) => {
 
    //Five steps:
    //1. Adding user to team...
@@ -15,8 +19,8 @@ app.post('/addUser', (req, res) => {
    //4. Updating team email distro...
    //5. Finishing up...
 
-   
-   res.send(req);
+   const time = randomInterval(500, 6000) //between 500ms and 6000ms (0.5s - 6s)
+   res.send(time);
 
 })
 
